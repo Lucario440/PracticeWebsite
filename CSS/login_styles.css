@@ -1,0 +1,41 @@
+body{
+  margin: 0 0 0 0;
+  background-color: #04293A ;
+  position: static;
+  font-family: 'Pushster', cursive;
+}
+
+h1{
+  color: #ECB365;
+}
+#loginImage{
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
+}
+.LoginIn{
+  position: relative;
+  margin-top: 30%;
+  width: 70%;
+  margin-left: 16%;
+  text-align: center;
+}
+.rememberMe{
+  color:white;
+}
+
+
+.signin-button{
+  background-color: #041C32;
+  color: #ECB365;
+}
+.signin-button:hover{
+  background-color: #05121f;
+  color: #ECB365;
+}a{
+  text-decoration: none;
+  color: #064663;
+}
+a:hover{
+  color: #def0f8;
+}
