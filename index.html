@@ -4,37 +4,30 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <!-- bootstrap link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
+  <!-- google fonts link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="CSS/login_styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+<!-- external css link -->
+  <link rel="stylesheet" href="CSS/login_styles.css">
 </head>
 
 <body>
-  <img id="loginImage" src="Images/SignInImage.jpg">
-  <form class="form SignUp">
-    <h1 class="h3 mb-3 fw-normal">Let's Get Started</h1>
-    <div class="form-group">
-      <label for="Name">Name</label>
-      <input type="text" name="Name" class="form-control" placeholder="Name">
-    </div>
-    <div class="form-group">
-      <label for="Sem">Sem</label>
-      <input type="text" name="Sem" class="form-control" placeholder="Sem">
-    </div>
-    <div class="form-group">
-      <label for="USN">USN</label>
-      <input type="text" name="USN" class="form-control" placeholder="USN">
-    </div>
+  <!-- image -->
+  <img id="loginImage" src="Images/Login_image.jpg">
+  <!-- Login part -->
+  <form class="form LoginIn">
+    <h1 class="h3 mb-3 fw-normal">Please Sign In</h1>
     <div class="form-group">
       <label for="email">Email address:</label>
       <input type="email" class="form-control" placeholder="Email-address">
@@ -43,18 +36,19 @@
       <label for="pwd">Password:</label>
       <input type="password" class="form-control" placeholder="Password">
     </div>
-    <div class="form-group">
-      <label for="pwd">Confirm Password:</label>
-      <input type="password" class="form-control" placeholder="Confirm Password">
+    <div class="checkbox mb-3">
+      <label class="rememberMe">
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
     </div>
     <button type="submit" class="btn btn-lg signin-button">Submit</button>
     <br>
-    <a href="index.html">Already Have account?</a>
+    <!-- link to signup page -->
+    <a href="SignUp.html">Don't have account?</a>
+    <!-- link to Javascript page -->
+    <script src=""></script>
+
   </form>
-  </main>
-  </div>
-  </div>
-  <script src="Javascript/logic.js"></script>
 </body>
 
 </html>

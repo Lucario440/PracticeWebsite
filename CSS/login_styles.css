@@ -1,41 +1,63 @@
-body{
+body {
   margin: 0 0 0 0;
-  background-color: #04293A ;
-  position: static;
-  font-family: 'Pushster', cursive;
+  background-color: #04293a;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-h1{
-  color: #ECB365;
+h1,
+.signin-button {
+  color: #ecb365;
+  font-family: "Pushster", cursive;
 }
-#loginImage{
-  max-width: 100%;
+#loginImage {
+  width: 50%;
   max-height: 100vh;
   height: auto;
 }
-.LoginIn{
-  position: relative;
-  margin-top: 30%;
-  width: 70%;
-  margin-left: 16%;
-  text-align: center;
+.LoginIn,
+.SignUp {
+  position: absolute;
+  width: 30%;
+  color: White;
+  right: 15%;
 }
-.rememberMe{
-  color:white;
+.LoginIn {
+  top: 30%;
+}
+.SignUp {
+  top: 10%;
 }
 
-
-.signin-button{
-  background-color: #041C32;
-  color: #ECB365;
+.signin-button {
+  background-color: #041c32;
 }
-.signin-button:hover{
+.signin-button:hover {
   background-color: #05121f;
-  color: #ECB365;
-}a{
+  color: #ecb365;
+}
+a {
   text-decoration: none;
   color: #064663;
 }
-a:hover{
+a:hover,
+.rememberMe {
   color: #def0f8;
+}
+
+/* For Smaller Screen Devices */
+@media (max-width: 950px) {
+  #loginImage {
+    width: -webkit-fill-available;
+    max-height: 100vh;
+    height: auto;
+  }
+  .LoginIn,
+  .SignUp {
+    left: 30%;
+    width: 50%;
+    color: White;
+  }
+  #loginImage {
+    filter: blur(5px);
+  }
 }
